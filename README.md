@@ -52,7 +52,7 @@ Installation:
 =====
 * Place the file wherever you like and chmod +x it to make it executable
 * Ensure you have Python installed (default for Ubuntu) and the PIL and lxml packages:
-* pip install -f requirements.txt or sudo apt-get install python-imaging python-lxml
+* ~~pip install -f requirements.txt or~~ sudo apt-get install python-imaging python-lxml
 * Set the defaults in the file 
   
 Defaults:
@@ -85,13 +85,11 @@ If you want the file to automatically run at startup:
 
 To Do:
 =====
-* Make a blog post / homepage.
+* Support images from more than one region.
 
 License:
 =====
 Open-source and free for use.
-
-Unfortunately, I don't have time to update this script at the moment. This software is currently as is and I would definitely recommend checking out some of the various forks for updates or fixes.
 
 >Copyright (c) 2012 David Drake
 >
@@ -106,3 +104,8 @@ Author:
 David Drake 
 
 [@randomdrake](https://twitter.com/randomdrake) | [http://randomdrake.com](http://randomdrake.com) | [LinkedIn](http://www.linkedin.com/pub/david-drake/52/247/465)
+
+Modified by:
+=====
+Lan Xiao
+[LinkedIn](https://www.linkedin.com/in/lan-xiao-152aa2127)
