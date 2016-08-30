@@ -1,31 +1,28 @@
-nasa-apod-desktop
+bing-desktop
 =====
 
-Python Script to Download the NASA APOD and Set it as Your Background for Ubuntu
+Python Script to Download Bing Daliy Images and Set them as Background for Ubuntu
 -----
 
 About:
 =====
-The popular NASA Astronomy Picture of the Day produces wonderful images that make for a great desktop background. This script will download the NASA APOD and set it as your background in Ubuntu.
+The [Bing](http://www.bing.com/) website has beautiful daily images that make great wallpapers. This script will download these images and set them as your desktops in Ubuntu.
 
-![NASA APOD Example](http://randomdrake.com/nasa_apod.jpg "An example of a NASA APOD image.")
+![Daily Image Example](http://www.bing.com/az/hprichbg/rb/RedSeaCoralVideo_EN-US10089631331_1366x768.jpg "An example of Bing daily image.")
 
-http://en.wikipedia.org/wiki/Astronomy_Picture_of_the_Day
-
-http://apod.nasa.gov/apod/astropix.html
-
-Tested on, and created for, Ubuntu 12.04.
+Tested on Ubuntu 16.04.
 
 How it Works:
 =====
 1. Grabs your current download path
-2. Downloads the latest image of the day from NASA ([http://apod.nasa.gov/apod/](http://apod.nasa.gov/apod/))
-3. Determines your desktop resolution, or uses the set default
-4. Resizes the image to the given resolution
-5. Sets the image as your desktop
-6. Adds image to XML file used to scroll through desktop background images.
+2. Finds the url of the latest image from Bing ([http://www.bing.com/HPImageArchive.aspx?format=xml&idx=0&n=1&mkt=en-US](http://www.bing.com/HPImageArchive.aspx?format=xml&idx=0&n=1&mkt=en-US))
+3. Downloads that image
+4. Determines your desktop resolution, or uses the set default
+5. Resizes the image to the given resolution
+6. Sets the image as your desktop
+7. Adds image to XML file used to scroll through desktop background images.
 
-It's not very exciting to scroll through a single image, so it will attempt to download additional images (default: 10) to seed your list of images.
+It's not very exciting to scroll through a single image, so it will attempt to download additional images (default: 7) to seed your list of images.
 
 Development:
 =====
