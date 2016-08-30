@@ -46,7 +46,6 @@ But, generating the XML file wasn't enough. I also wanted to start with a number
 
 While searching around for the original source, I found out that the project I grabbed from was originally based on a [different script](http://apod.nasa.gov/apod/astropix.html), which I think is worth mentioning.
 
-Please note: I am not extremely well-versed in Python. I have been playing with the language and Django lately so, if improvements could be made, please let me know.
 
 Installation:
 =====
@@ -108,4 +107,5 @@ David Drake
 Modified by:
 =====
 Lan Xiao
+
 [LinkedIn](https://www.linkedin.com/in/lan-xiao-152aa2127)
